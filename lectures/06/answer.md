@@ -14,7 +14,9 @@
 
 <!-- 基礎・実装・発展のどれか1つに取り組めば完了です。 -->
 
-- 取り組んだレベル：基礎 / 実装 / 発展
-- やったこと：
+- 取り組んだレベル：基礎
+- やったこと：mcp_sever.pyを修正して、get_lecture_summaryを追記し、公開した。
 - 結果：
-- 気づき・疑問：
+[tool call]   glossary_get_lecture_summary({'lecture': 2})
+[tool return] glossary_get_lecture_summary -> # 第2回 ファインチューニングとLoRA
+- 気づき・疑問：エージェントを書き換えずに、ツールを追加することができるのは便利だと思った。
